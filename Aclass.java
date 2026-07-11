@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class Aclass {
-    public static void mian(String[] args){
+    public static void main(String[] args){
 
 
         JPanel redPanel = new JPanel();
@@ -18,7 +18,7 @@ public class Aclass {
 
         JPanel greenPanel = new JPanel();
         greenPanel.setBackground(Color.green);
-        greenPanel.setBounds(440, 0, 200, 200);
+        greenPanel.setBounds(400, 0, 200, 200);
 
         JPanel yellowPanel = new JPanel();
         yellowPanel.setBackground(Color.yellow);
@@ -35,7 +35,7 @@ public class Aclass {
         myFrame.setLayout(null);
         ImageIcon icon = new ImageIcon("Pic.jpg");
         myFrame.setIconImage(icon.getImage());
-        myFrame.getContentPane().setBackground(Color.yellow);
+        myFrame.getContentPane().setBackground(Color.black);
         myFrame.add(redPanel);
         myFrame.add(bluePanel);
         myFrame.add(greenPanel);

@@ -1,0 +1,18 @@
+import javax.swing.JFrame;
+
+public class Windouw {
+    public static void main(String[] args){
+
+        JFrame  frame = new JFrame();
+        frame.setVisible(true);
+        frame.setSize(600, 600);
+        
+
+
+    }
+
+    
+
+
+    
+}
