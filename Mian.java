@@ -9,10 +9,14 @@ public class Mian {
         JPanel redPanel = new JPanel();
         redPanel.setBackground(Color.red);
         redPanel.setBounds(0 , 0, 250, 250);
-        // add ad grean panel.
+        // add ad ble panel.
         JPanel bluePanel = new JPanel();
         bluePanel.setBackground(Color.blue);
         bluePanel.setBounds(250, 0, 250, 250);
+        // add a green panale.
+        JPanel greePanel = new JPanel();
+        greePanel.setBackground(Color.green);
+        greePanel.setBounds(112, 0, 350, 350);
         
         
           JFrame frame = new JFrame();
@@ -22,6 +26,7 @@ public class Mian {
           frame.setVisible(true);
           frame.add(redPanel);
           frame.add(bluePanel);
+          frame.add(greePanel);
           
       
         
