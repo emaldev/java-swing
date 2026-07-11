@@ -17,6 +17,9 @@ public class Mian {
         JPanel greePanel = new JPanel();
         greePanel.setBackground(Color.green);
         greePanel.setBounds(112, 0, 350, 350);
+        JPanel blackPanel = new JPanel();
+        blackPanel.setBackground(Color.black);
+        blackPanel.setBounds(0, 250, 250, 250);
         
         
           JFrame frame = new JFrame();
@@ -27,6 +30,7 @@ public class Mian {
           frame.add(redPanel);
           frame.add(bluePanel);
           frame.add(greePanel);
+          frame.add(blackPanel);
           
       
         
