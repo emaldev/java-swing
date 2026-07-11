@@ -30,14 +30,18 @@ public class Windouw {
 
 
         JFrame  frame = new JFrame();
-        frame.setVisible(true);
+        
         frame.setTitle("Java Game.");
         frame.setSize(600, 600);
+        frame.setLayout(null);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(redPanel);
         frame.add(bluePanel);
         frame.add(greenPanel);
         frame.add(blackPanel);
         frame.add(pinkPanel);
+
+        frame.setVisible(true);
 
         
 
