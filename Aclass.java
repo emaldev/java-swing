@@ -39,6 +39,7 @@ public class Aclass {
         myFrame.add(redPanel);
         myFrame.add(bluPanel);
         myFrame.add(greenPanel);
+        myFrame.add(yelloPanel);
         
         
     }
