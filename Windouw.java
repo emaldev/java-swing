@@ -18,6 +18,14 @@ public class Windouw {
         greenPanel.setBackground(Color.green);
         greenPanel.setBounds(200, 150, 200, 250);
 
+        JPanel blackPanel = new JPanel();
+        blackPanel.setBackground(Color.black);
+        blackPanel.setBounds(400, 150, 200, 250);
+
+        JPanel pinkPanel = new JPanel();
+        pinkPanel.setBackground(Color.pink);
+        pinkPanel.setBounds(0, 400, 600, 200);
+
 
 
 
@@ -27,6 +35,8 @@ public class Windouw {
         frame.add(redPanel);
         frame.add(bluePanel);
         frame.add(greenPanel);
+        frame.add(blackPanel);
+        frame.add(pinkPanel);
 
         
 
