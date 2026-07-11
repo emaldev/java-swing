@@ -36,6 +36,7 @@ public class Aclass {
         ImageIcon icon = new ImageIcon("Pic.jpg");
         myFrame.setIconImage(icon.getImage());
         myFrame.getContentPane().setBackground(Color.yellow);
+        myFrame.add(redPanel);
         
         
     }
