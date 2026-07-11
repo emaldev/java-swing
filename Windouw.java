@@ -31,6 +31,7 @@ public class Windouw {
 
         JFrame  frame = new JFrame();
         frame.setVisible(true);
+        frame.setTitle("Java Game.");
         frame.setSize(600, 600);
         frame.add(redPanel);
         frame.add(bluePanel);
