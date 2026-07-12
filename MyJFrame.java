@@ -18,14 +18,32 @@ public class MyJFrame extends JFrame{
         button2.setText("Button 2.");
         button2.setBackground(Color.MAGENTA);
         button2.setBorder(BorderFactory.createEtchedBorder());
+        JButton[] buttons = new JButton[9];
+        for(int i  = 0; i < 9; i++){
+            buttons[i] = new JButton();
+            int row = i/ 3;
+            int col = i % 3;
+            
+            int x = 50 + col * 80;
+            int y = 50 + row * 80;
+            buttons[i].setBounds(x, y, 80, 80);
+            
+            this.add(buttons[i]);
+        
+
+
+        }
 
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        this.setVisible(true);
-        this.setSize(700, 700);
-        this.setBounds(50, 50, 250, 250);
+        
+        
         this.setLayout(null);
         this.add(button1);
         this.add(button2);
+       
+        this.setVisible(true);
+        this.setSize(700, 700);
+        
     }
     
 }
