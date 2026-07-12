@@ -18,18 +18,18 @@ public class MyFrame extends JFrame {
 
     MyFrame(){
         //ImageIcon icon = new ImageIcon("image.png");
-        button.setHorizontalTextPosition(JButton.CENTER);
-        button.setVerticalTextPosition(JButton.BOTTOM);
-        button.setFont(new Font("Comi Sans", Font.BOLD, 23));
-        button.setIconTextGap(-15);
-        button.setForeground(Color.cyan);
-        button.setBounds(100, 100, 250, 100);
-        button.addActionListener(e -> System.out.println("Poo"));
-        button.setText("I am a button");
-        button.setFocusable(false);
-        button.setBackground(Color.lightGray);
-        button.setBorder(BorderFactory.createEtchedBorder());
-       // button.setEnabled(false);
+        button.setHorizontalTextPosition(JButton.CENTER);// تیظم کردن دکمه در وست 
+        button.setVerticalTextPosition(JButton.BOTTOM);// قراردادن در بالا 
+        button.setFont(new Font("Comi Sans", Font.BOLD, 23));// درشت کردن خطوط داخل دکمه 
+        button.setIconTextGap(-15);// کم کردن درشتی خطوط
+        button.setForeground(Color.cyan);// رنگ بکگروند خطوط داخل  
+        button.setBounds(100, 100, 250, 100);// اندازه دکمه 
+        button.addActionListener(e -> System.out.println("Poo"));// متن که باید چاپ کند 
+        button.setText("I am a button");// اضافه کردن متن 
+        button.setFocusable(false);// 
+        button.setBackground(Color.lightGray);// رنگ بگروند 
+        button.setBorder(BorderFactory.createEtchedBorder());// اضافه کردن باردر 
+       // button.setEnabled(false); // درصورت یک بار استفاده از کار می افتد 
 
 
 
